@@ -103,5 +103,6 @@ Pro Tip: Use TensorFlow.js for full client-side inference if needed.
 
 📄 License
 This project is licensed under the MIT License.
+here is the demo  https://plant-docto-proto.vercel.app/
 
 Built with ❤️ for farmers and techies alike.
