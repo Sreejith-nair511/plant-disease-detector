@@ -1,0 +1,92 @@
+export const diseases = [
+  {
+    name: "Powdery Mildew",
+    symptoms: "White powdery spots on leaves and stems",
+    causes: "Fungal infection, high humidity, poor air circulation",
+    treatment: "Improve air circulation, apply fungicides, remove infected parts",
+  },
+  {
+    name: "Rust",
+    symptoms: "Orange or reddish-brown pustules on leaves and stems",
+    causes: "Fungal infection, wet conditions, overcrowding",
+    treatment: "Remove infected plants, improve drainage, apply fungicides",
+  },
+  {
+    name: "Leaf Spot",
+    symptoms: "Dark spots with yellow halos on leaves",
+    causes: "Bacterial or fungal infection, wet leaves, poor air circulation",
+    treatment: "Avoid overhead watering, remove infected leaves, apply fungicides",
+  },
+  {
+    name: "Blight",
+    symptoms: "Rapid browning and wilting of leaves and stems",
+    causes: "Bacterial or fungal infection, warm and humid conditions",
+    treatment: "Remove infected plants, improve air circulation, apply fungicides or bactericides",
+  },
+  {
+    name: "Root Rot",
+    symptoms: "Wilting, yellowing leaves, stunted growth",
+    causes: "Overwatering, poor drainage, soil-borne pathogens",
+    treatment: "Improve drainage, reduce watering, apply fungicides to soil",
+  },
+  {
+    name: "Fusarium Wilt",
+    symptoms: "Yellowing and wilting of leaves, often on one side of the plant",
+    causes: "Soil-borne fungal infection, high temperatures",
+    treatment: "Use resistant varieties, improve soil drainage, crop rotation",
+  },
+  {
+    name: "Verticillium Wilt",
+    symptoms: "Yellowing and wilting of leaves, often in a V-shaped pattern",
+    causes: "Soil-borne fungal infection, cool temperatures",
+    treatment: "Use resistant varieties, improve soil health, solarization",
+  },
+  {
+    name: "Bacterial Leaf Scorch",
+    symptoms: "Leaf edges turn brown and crispy, often with a yellow border",
+    causes: "Bacterial infection spread by insects",
+    treatment: "Prune infected parts, control insect vectors, improve plant health",
+  },
+  {
+    name: "Botrytis Blight",
+    symptoms: "Gray mold on flowers, leaves, and stems",
+    causes: "Fungal infection, high humidity, poor air circulation",
+    treatment: "Improve air circulation, remove infected parts, apply fungicides",
+  },
+  {
+    name: "Anthracnose",
+    symptoms: "Dark, sunken lesions on leaves, stems, and fruits",
+    causes: "Fungal infection, warm and wet conditions",
+    treatment: "Improve air circulation, avoid overhead watering, apply fungicides",
+  },
+  {
+    name: "Downy Mildew",
+    symptoms: "Yellow or pale green patches on upper leaf surfaces, fuzzy growth on undersides",
+    causes: "Fungal-like infection, cool and moist conditions",
+    treatment: "Improve air circulation, reduce humidity, apply fungicides",
+  },
+  {
+    name: "Bacterial Canker",
+    symptoms: "Sunken, dark lesions on stems and branches, leaf spots with yellow halos",
+    causes: "Bacterial infection, often entering through wounds",
+    treatment: "Prune infected parts, avoid wounding, apply copper-based bactericides",
+  },
+  {
+    name: "Mosaic Virus",
+    symptoms: "Mottled or streaked leaf coloration, stunted growth, deformed leaves",
+    causes: "Viral infection, often spread by insects",
+    treatment: "Remove infected plants, control insect vectors, use virus-resistant varieties",
+  },
+  {
+    name: "Fire Blight",
+    symptoms: "Blackened, wilted shoots and branches, appearing as if scorched",
+    causes: "Bacterial infection, common in apple and pear trees",
+    treatment: "Prune infected parts, apply copper-based bactericides, improve sanitation",
+  },
+  {
+    name: "Clubroot",
+    symptoms: "Stunted growth, yellowing leaves, swollen and deformed roots",
+    causes: "Soil-borne fungal infection, common in brassicas",
+    treatment: "Improve soil drainage, increase soil pH, use resistant varieties",
+  },
+]

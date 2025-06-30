@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+.dark {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+.bg-interactive {
+  background-image: url("/leaf-pattern.png");
+  background-repeat: repeat;
+  background-size: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-interactive::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 50%);
+  animation: ripple 15s linear infinite;
+}
+
+@keyframes ripple {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-25%, -25%);
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-green-50 dark:bg-gray-900 transition-colors duration-300;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white dark:bg-gray-800 bg-opacity-90 p-4 md:p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300;
+  }
+
+  .btn {
+    @apply bg-green-600 dark:bg-green-700 text-white py-2 px-4 rounded-full hover:bg-green-700 dark:hover:bg-green-600 transition-colors duration-300 text-sm md:text-base;
+  }
+
+  .input {
+    @apply w-full p-2 border border-gray-300 dark:border-gray-600 rounded-md focus:ring-2 focus:ring-green-500 focus:border-transparent dark:bg-gray-700 dark:text-white text-sm md:text-base;
+  }
+}
+
+/* Mobile-first responsive adjustments */
+@media (max-width: 640px) {
+  h1 {
+    @apply text-2xl;
+  }
+
+  h2 {
+    @apply text-xl;
+  }
+
+  .card {
+    @apply p-3;
+  }
+}
