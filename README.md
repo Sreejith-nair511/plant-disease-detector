@@ -81,9 +81,7 @@ Install Dependencies
 pnpm install
 Run the App
 
-bash
-Copy
-Edit
+
 pnpm dev
 Visit: http://localhost:3000
 
@@ -104,5 +102,9 @@ Pro Tip: Use TensorFlow.js for full client-side inference if needed.
 📄 License
 This project is licensed under the MIT License.
 here is the demo  https://plant-docto-proto.vercel.app/
+![image](https://github.com/user-attachments/assets/6b0458ac-5cec-4177-8894-786a0e2278d8)
+![image](https://github.com/user-attachments/assets/c59182eb-78f0-461b-bdea-173f8b4876d2)
+
+
 
 Built with ❤️ for farmers and techies alike.
